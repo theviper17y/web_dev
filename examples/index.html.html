@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="exo2 ">
+      <form>
+        <fieldset
+          style="display: grid; grid-template-columns: auto auto; row-gap: 20px"
+        >
+          <legend>Mon Formulaire</legend>
+
+          <label for="Nom">Nom</label>
+          <input id="Nom" type="text" placeholder="saisir votre nom" />
+
+          <label for="Prenom">Prenom</label>
+          <input id="Prenom" type="text" placeholder="saisir votre nom" />
+
+          <label for="Email">Email</label>
+          <input id="Email" type="text" placeholder="saisir votre nom" />
+
+          <label for="Sexe">Sexe</label>
+          <div>
+            <label>
+              Masculin
+              <input type="radio" name="sexe" />
+            </label>
+            <label>
+              Féminin
+              <input type="radio" name="sexe" />
+            </label>
+          </div>
+
+          <label for="image">Photo</label>
+          <input id="image" type="file" accept="image/*" />
+
+          <label for="Pays">Pays</label>
+          <select>
+            <option value="ALG">ALG</option>
+            <option value="KSA">KSA</option>
+          </select>
+
+          <label>les langages preferes</label>
+          <select multiple>
+            <option>JavaScript</option>
+            <option>c</option>
+            <option>c++</option>
+            <option>python</option>
+          </select>
+
+          <label for="Sexe">Domaines dactivites</label>
+          <div>
+            <input type="checkbox" />
+            <label>Gestion</label>
+            <input type="checkbox" />
+            <label>Math</label>
+            <input type="checkbox" />
+            <label>Informatique</label>
+          </div>
+
+          <div>
+            <button type="submit">Envoyer</button>
+            <button>Annuler</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <br />
+    <br />
+    <section>
+      <form>
+        <label>Choose a car</label>
+        <select>
+          <optgroup label="italian cars">
+            <option>fiat</option>
+          </optgroup>
+          <optgroup label="german cars">
+            <option>Audi</option>
+            <option>Mercedes</option>
+          </optgroup>
+        </select><br>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </section>
+  </body>
+</html>
